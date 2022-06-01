@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-image: url(../img/-6231011130403303611_120.jpg);
+    
+}
+img{
+
+}
+
+li{
+    list-style: none;
+}
+
+.navbar{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
