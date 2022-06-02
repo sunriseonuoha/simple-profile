@@ -1,24 +1,136 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: cursive;
 }
 
+.header{
+    width: 100%;
+    position: relative;
+    height: 50vh;
+    background-color: aqua;
+    background-size: cover;
+}
+ 
+.content{
+    height: 50vh;
+    position: relative;
+}
 
-body{
-    background-image: url(../img/-6231011130403303611_120.jpg);
+nav{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(238, 158, 83, 0.);
+
+}
+
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin:10px 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #777;
+}
+
+nav ul li a:hover{
+    background-color: rgb(231, 114, 4);
+    border-radius: 5px;
+    padding: 10px;
+    transition-duration: 0.5s;
     
 }
-img{
 
+.word{
+    margin-top: -180px;
 }
 
-li{
-    list-style: none;
+.description{
+    padding-top: 10rem;
+    margin: 20px 0 0 100px;
+    position: relative;
+
+}
+.description h1{
+    font-size: 50px;
+    color: #777;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    padding-top: -30px;
+    
 }
 
-.navbar{
+.description p{
+    color: #777;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: capitalize;
+}
+ .description a{
+     text-decoration: none;
+     border-radius: 20px;
+     padding: 10px 40px;
+     background-color: rgb(241, 137, 40);
+     background-size: 50px;
+     line-height: 8;
+     font-weight: bold;
+     text-transform: uppercase;
+     color: rgb(6, 10, 37);
+     
+ }
+
+ .description a:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+span{
+    color: rgb(236, 113, 31);
+    width: 50px;
+    transition: width 2s;
+    width: 100px;
+    /* height: 100px;
+    background: rgb(31, 90, 105, 0.1); */
+    border-radius: 5px;
+    padding: 10px;
+    inherits: none;
+ 
+}
+
+
+span:hover{
+    color: rgb(56, 54, 55);
+    width: 300px;
+    transition: ease-in-out 2s;
+    text-shadow: #777;
+}
+
+
+#spac{
     display: flex;
+    justify-content: center;
+    margin-top: -25rem;
+    margin-left: 40rem;
+    position: absolute;
+    padding-top:0 ;
 }
-.menu{
-    display: flex;
+
+.spac .word{
+    position: absolute;
+}
+
+.me:hover{
+    border: 19px solid #777;
+    transition-duration: 5s;
+    box-shadow: aqua;
 }
